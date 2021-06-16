@@ -53,6 +53,8 @@ Requisitos:
 
 - Este serviço deve ser RESTFul.
 
+- Deverá haver, pelo menos, a escrita de testes unitários.
+
 ### Payload
 
 Faça uma **proposta** :heart: de payload, se preferir, temos um exemplo aqui:
@@ -70,15 +72,10 @@ POST /transaction
 
 # Avaliação
 
-Apresente sua solução utilizando o framework que você desejar, justificando a escolha.
+Apresente sua solução.
 Atente-se a cumprir a maioria dos requisitos, pois você pode cumpri-los parcialmente e durante a avaliação vamos bater um papo a respeito do que faltou.
 
 Teremos 2 partes da avaliação:
-
-A correção objetiva será realizada através da utilização de um script de correção automatizada. Você **pode** rodar na sua máquina local ou usar outra ferramenta:
-```
-docker run -it --rm -v $(pwd):/project -w /project jakzal/phpqa phpmd app text cleancode,codesize,controversial,design,naming,unusedcode
-```    
 
 A correção qualitativa será durante a entrevista e levará em conta os seguintes critérios:
 
