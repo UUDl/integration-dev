@@ -36,7 +36,7 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 
 ## Para o dia da entrevista técnica
 Na data marcada pelo recrutador tenha sua aplicação rodando na sua máquina local para execução dos testes e para nos mostrar os pontos desenvolvidos e possíveis questionamentos.
-Faremos um code review junto contigo como se você já fosse do nosso time :heart:, você poderá explicar o que você pensou, como arquitetou e como pode evoluir o projeto.
+Faremos um code review junto contigo, como se você já fosse do nosso time :heart:, você poderá explicar o que você pensou, como arquitetou e como pode evoluir o projeto.
 
 ## Objetivo: UUDI Simplificado
 
@@ -44,11 +44,11 @@ Temos 2 tipos de usuários, os comuns e lojistas, ambos têm carteira com dinhei
 
 Requisitos:
 
-- Para ambos tipos de usuário, precisamos do Nome Completo, CPF, e-mail e Senha. CPF/CNPJ e e-mails devem ser únicos no sistema. Sendo assim, seu sistema deve permitir apenas um cadastro com o mesmo CPF ou endereço de e-mail.
+- Para ambos os tipos de usuário, precisamos do Nome Completo, CPF, e-mail e Senha. CPF/CNPJ e e-mails devem ser únicos no sistema. Sendo assim, seu sistema deve permitir apenas um cadastro com o mesmo CPF ou endereço de e-mail.
 
 - Usuários podem enviar dinheiro (efetuar transferência) para lojistas e entre usuários. 
 
-- fLojistas **só recebem** transerências, não enviam dinheiro para ninguém.
+- Lojistas **só recebem** transferências, não enviam dinheiro para ninguém.
 
 - Validar se o usuário tem saldo antes da transferência.
 
@@ -58,7 +58,7 @@ Requisitos:
 
 ### Payload
 
-Faça uma **proposta** :heart: de payload, se preferir, temos uma exemplo aqui:
+Faça uma **proposta** :heart: de payload, se preferir, temos um exemplo aqui:
 
 POST /transaction
 
@@ -66,7 +66,7 @@ POST /transaction
 {
     "value" : 100.00,
     "payer" : 4,
-    "payee" : 15
+    "receiver" : 15
 }
 ```
 
@@ -74,7 +74,7 @@ POST /transaction
 # Avaliação
 
 Apresente sua solução utilizando o framework que você desejar, justificando a escolha.
-Atente-se a cumprir a maioria dos requisitos, pois você pode cumprir-los parcialmente e durante a avaliação vamos bater um papo a respeito do que faltou.
+Atente-se a cumprir a maioria dos requisitos, pois você pode cumpri-los parcialmente e durante a avaliação vamos bater um papo a respeito do que faltou.
 
 Teremos 2 partes da avaliação:
 
@@ -85,7 +85,7 @@ docker run -it --rm -v $(pwd):/project -w /project jakzal/phpqa phpmd app text c
 
 A correção qualitativa será durante a entrevista e levará em conta os seguintes critérios:
 
-## O que será avaliado e valorizamos :heart:
+## O que será avaliado e valorizado :heart:
 - Documentação
 - Se for para vaga sênior, foque bastante no **desenho de arquitetura**
 - Código limpo e organizado (nomenclatura, etc)
