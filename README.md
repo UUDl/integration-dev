@@ -26,11 +26,9 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 
 ### Sobre o ambiente da aplicação:
 
-- Escolha qualquer framework que se sinta **confortável** em trabalhar. Esse teste **não faz** nenhuma preferência, portanto decida por aquele com o qual estará mais seguro em apresentar e conversar com a gente na entrevista ;)
+- Você vai trabalhar com o framework .NET, esperamos que se sinta **confortável** com isso. Nesse teste **é imprescindível** a utilização do .NET, portanto esteja seguro em apresentar e conversar com a gente na entrevista, o conhecimentos de outros frameworks no momento não será avaliado. ;)
 
-- Você pode, inclusive, não optar por framework nenhum. Neste caso, recomendamos a implementação do serviço via script para diminuir a sobrecarga de criar um servidor web.
-
-- Ainda assim, se optar por um framework tente evitar usar muito métodos mágicos ou atalhos já prontos. Sabemos que essas facilidades aumentam a produtividade no dia-a-dia mas aqui queremos ver o **seu** código e a sua forma de resolver problemas.
+- Tente evitar usar muito métodos mágicos ou atalhos já prontos. Sabemos que essas facilidades aumentam a produtividade no dia-a-dia mas aqui queremos ver o **seu** código e a sua forma de resolver problemas.
 
 - Valorizamos uma boa estrutura de containeres criada por você.
 
